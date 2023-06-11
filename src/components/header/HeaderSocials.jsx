@@ -4,14 +4,11 @@ import {FaGithub} from 'react-icons/fa'
 
 
 
-//using react icon lib to add icons to the webpage
-//taget blank to open in new tab
-// <a href="https://dribble.com" target="_blank"></a>ADD THIS IN AFTER for dribble icon.
 export const HeaderSocials = () => {
 
   return (
 
-    <div className='header_socials'>
+    <div className='header__socials'>
 
         <a href="https://linkedin.com" target="_blank"><BsLinkedin/></a>
         <a href="https://github.com/Muntake" target="_blank"> <FaGithub/></a>
